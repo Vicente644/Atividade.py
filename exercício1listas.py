@@ -1,4 +1,3 @@
-#exercício 1
 numeros = []
 impares = []
 pares = []
@@ -13,7 +12,5 @@ for num in numeros:
     else:
         impares.append(num)
 
-print(f"Quantidade de pares {len{pares}}")
-print(f"quantidade de ímpares {len{impares}}")
-
-#exercício 2
+print(f"Há {len(pares)} números pares.")
+print(f"Há {len(impares)} números ímpares.")
